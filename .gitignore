@@ -12,3 +12,4 @@ model_outputs/*.pkl
 __pycache__/
 *.pyc
 .DS_Store
+model_outputs/*.csv
