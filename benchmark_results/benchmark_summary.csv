@@ -1,0 +1,13 @@
+scale,format,compression,rows,size_mb,write_sec,read_sec
+1x,csv,none,619040,28.21,1.361,0.332
+1x,parquet,snappy,619040,10.15,0.194,0.831
+1x,parquet,gzip,619040,8.06,0.636,0.028
+1x,parquet,zstd,619040,8.09,0.097,0.02
+10x,csv,none,6190400,282.1,14.716,2.523
+10x,parquet,snappy,6190400,95.37,0.779,0.313
+10x,parquet,gzip,6190400,76.0,6.141,0.23
+10x,parquet,zstd,6190400,75.46,0.913,0.19
+100x,csv,none,61904000,2821.02,152.557,48.468
+100x,parquet,snappy,61904000,951.91,8.863,8.675
+100x,parquet,gzip,61904000,758.32,87.53,13.038
+100x,parquet,zstd,61904000,751.95,25.781,32.168
